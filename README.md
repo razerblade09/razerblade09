@@ -178,9 +178,15 @@ Status: Always learning.
 ## `$ github --stats`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=razerblade09&show_icons=true&theme=transparent&hide_border=true&title_color=00ff9c&icon_color=00ff9c&text_color=c9d1d9&rank_icon=github" alt="GitHub statistics" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=razerblade09&theme=github_dark" height="160" alt="GitHub statistics" />
   &nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=razerblade09&layout=compact&theme=transparent&hide_border=true&title_color=00ff9c&text_color=c9d1d9" alt="Most used languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=razerblade09&theme=github_dark" height="160" alt="Most used languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=razerblade09&theme=github_dark&utcOffset=8" height="160" alt="Productive time" />
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=razerblade09&theme=github_dark" height="160" alt="Repos per language" />
 </p>
 
 <p align="center">
