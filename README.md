@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="breakdown.svg" width="100%" alt="Breakdown — a city at dusk, one tower per active day"/>
+  <img src="singularity.svg" width="100%" alt="Singularity — a black hole whose accretion disk is made of 64 contributions"/>
 </p>
 
 # `root@aaron:~$ whoami`
