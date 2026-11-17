@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="singularity-city.svg" width="100%" alt="Singularity over the city — a black hole sun"/>
-</p>
-
 # `root@aaron:~$ whoami`
 
 <p align="center">
