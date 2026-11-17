@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Matrix rain">
+<style>
+  @keyframes fall {
+    0%   { transform: translateY(-24px); opacity: 0; }
+    8%   { opacity: 1; }
+    85%  { opacity: 1; }
+    100% { transform: translateY(144px); opacity: 0; }
+  }
+  @keyframes glow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+  .drop { font-family: "Courier New", monospace; font-size: 14px; text-anchor: middle; }
+  .fall { animation: fall linear infinite; }
+  .pulse { animation: glow ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="1200" height="120" fill="#0d1117" rx="8"/>
+<text class="drop fall pulse" x="9" y="0" fill="#00cc7a" font-weight="700" opacity="0.95" style="animation-duration:1.6s;animation-delay:2.97s;animation-name:fall,glow;animation-duration:1.6s,0.96s;">ラ</text>
+<text class="drop fall pulse" x="9" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:1.65s;animation-delay:0.41s;animation-name:fall,glow;animation-duration:1.65s,0.99s;">ス</text>
+<text class="drop fall" x="27" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.46s;animation-delay:0.13s;animation-name:fall;animation-duration:2.46s;">エ</text>
+<text class="drop fall" x="27" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.82s;animation-delay:2.41s;animation-name:fall;animation-duration:1.82s;">シ</text>
+<text class="drop fall" x="45" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.69s;animation-delay:2.81s;animation-name:fall;animation-duration:2.69s;">サ</text>
+<text class="drop fall" x="45" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.21s;animation-delay:1.11s;animation-name:fall;animation-duration:2.21s;">ス</text>
+<text class="drop fall" x="63" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:2.66s;animation-delay:1.36s;animation-name:fall;animation-duration:2.66s;">ケ</text>
+<text class="drop fall" x="63" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:3.12s;animation-delay:1.35s;animation-name:fall;animation-duration:3.12s;">シ</text>
+<text class="drop fall" x="81" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.57s;animation-delay:3.39s;animation-name:fall;animation-duration:1.57s;">ヌ</text>
+<text class="drop fall" x="81" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.85s;animation-delay:2.92s;animation-name:fall;animation-duration:2.85s;">ソ</text>
+<text class="drop fall pulse" x="99" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:3.15s;animation-delay:1.51s;animation-name:fall,glow;animation-duration:3.15s,1.89s;">カ</text>
+<text class="drop fall pulse" x="99" y="0" fill="#009955" font-weight="700" opacity="0.95" style="animation-duration:2.89s;animation-delay:2.47s;animation-name:fall,glow;animation-duration:2.89s,1.73s;">チ</text>
+<text class="drop fall" x="117" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:1.75s;animation-delay:0.28s;animation-name:fall;animation-duration:1.75s;">モ</text>
+<text class="drop fall" x="117" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:3.17s;animation-delay:3.42s;animation-name:fall;animation-duration:3.17s;">チ</text>
+<text class="drop fall" x="135" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:1.9s;animation-delay:2.54s;animation-name:fall;animation-duration:1.9s;">ヌ</text>
+<text class="drop fall" x="135" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.07s;animation-delay:0.84s;animation-name:fall;animation-duration:2.07s;">ケ</text>
+<text class="drop fall" x="153" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:3.09s;animation-delay:2.59s;animation-name:fall;animation-duration:3.09s;">ロ</text>
+<text class="drop fall" x="153" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:1.71s;animation-delay:2.92s;animation-name:fall;animation-duration:1.71s;">ラ</text>
+<text class="drop fall" x="171" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.08s;animation-delay:3.96s;animation-name:fall;animation-duration:2.08s;">フ</text>
+<text class="drop fall" x="171" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.63s;animation-delay:3.37s;animation-name:fall;animation-duration:2.63s;">ス</text>
+<text class="drop fall pulse" x="189" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:2.88s;animation-delay:3.22s;animation-name:fall,glow;animation-duration:2.88s,1.73s;">ス</text>
+<text class="drop fall pulse" x="189" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:1.52s;animation-delay:3.65s;animation-name:fall,glow;animation-duration:1.52s,0.91s;">タ</text>
+<text class="drop fall" x="207" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.97s;animation-delay:2.62s;animation-name:fall;animation-duration:1.97s;">ワ</text>
+<text class="drop fall" x="207" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:2.23s;animation-delay:1.06s;animation-name:fall;animation-duration:2.23s;">リ</text>
+<text class="drop fall" x="225" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.41s;animation-delay:1.05s;animation-name:fall;animation-duration:2.41s;">ン</text>
+<text class="drop fall" x="225" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:3.02s;animation-delay:1.6s;animation-name:fall;animation-duration:3.02s;">ハ</text>
+<text class="drop fall" x="243" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.32s;animation-delay:0.36s;animation-name:fall;animation-duration:2.32s;">キ</text>
+<text class="drop fall" x="243" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.68s;animation-delay:0.64s;animation-name:fall;animation-duration:1.68s;">カ</text>
+<text class="drop fall" x="261" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.51s;animation-delay:1.53s;animation-name:fall;animation-duration:1.51s;">ユ</text>
+<text class="drop fall" x="261" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.85s;animation-delay:2.21s;animation-name:fall;animation-duration:1.85s;">ミ</text>
+<text class="drop fall pulse" x="279" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:2.7s;animation-delay:2.73s;animation-name:fall,glow;animation-duration:2.7s,1.62s;">レ</text>
+<text class="drop fall pulse" x="279" y="0" fill="#009955" font-weight="700" opacity="0.95" style="animation-duration:2.78s;animation-delay:1.36s;animation-name:fall,glow;animation-duration:2.78s,1.67s;">タ</text>
+<text class="drop fall" x="297" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:1.68s;animation-delay:0.01s;animation-name:fall;animation-duration:1.68s;">ハ</text>
+<text class="drop fall" x="297" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.77s;animation-delay:2.03s;animation-name:fall;animation-duration:2.77s;">マ</text>
+<text class="drop fall" x="315" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.94s;animation-delay:2.56s;animation-name:fall;animation-duration:1.94s;">ラ</text>
+<text class="drop fall" x="315" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.68s;animation-delay:3.05s;animation-name:fall;animation-duration:1.68s;">サ</text>
+<text class="drop fall" x="333" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:3.05s;animation-delay:2.4s;animation-name:fall;animation-duration:3.05s;">ミ</text>
+<text class="drop fall" x="333" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:1.6s;animation-delay:1.45s;animation-name:fall;animation-duration:1.6s;">1</text>
+<text class="drop fall" x="351" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.5s;animation-delay:3.51s;animation-name:fall;animation-duration:1.5s;">セ</text>
+<text class="drop fall" x="351" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.72s;animation-delay:3.26s;animation-name:fall;animation-duration:2.72s;">エ</text>
+<text class="drop fall pulse" x="369" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:1.63s;animation-delay:1.9s;animation-name:fall,glow;animation-duration:1.63s,0.98s;">キ</text>
+<text class="drop fall pulse" x="369" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:1.88s;animation-delay:3.49s;animation-name:fall,glow;animation-duration:1.88s,1.13s;">ケ</text>
+<text class="drop fall" x="387" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:3.07s;animation-delay:3.02s;animation-name:fall;animation-duration:3.07s;">シ</text>
+<text class="drop fall" x="387" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:1.96s;animation-delay:3.98s;animation-name:fall;animation-duration:1.96s;">ワ</text>
+<text class="drop fall" x="405" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:3.02s;animation-delay:1.81s;animation-name:fall;animation-duration:3.02s;">ヒ</text>
+<text class="drop fall" x="405" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.52s;animation-delay:0.08s;animation-name:fall;animation-duration:1.52s;">ス</text>
+<text class="drop fall" x="423" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.46s;animation-delay:0.03s;animation-name:fall;animation-duration:2.46s;">ス</text>
+<text class="drop fall" x="423" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:1.52s;animation-delay:0.13s;animation-name:fall;animation-duration:1.52s;">ス</text>
+<text class="drop fall" x="441" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.33s;animation-delay:1.11s;animation-name:fall;animation-duration:2.33s;">ウ</text>
+<text class="drop fall" x="441" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.37s;animation-delay:2.89s;animation-name:fall;animation-duration:2.37s;">シ</text>
+<text class="drop fall pulse" x="459" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:2.25s;animation-delay:3.14s;animation-name:fall,glow;animation-duration:2.25s,1.35s;">モ</text>
+<text class="drop fall pulse" x="459" y="0" fill="#009955" font-weight="700" opacity="0.95" style="animation-duration:1.57s;animation-delay:2.64s;animation-name:fall,glow;animation-duration:1.57s,0.94s;">サ</text>
+<text class="drop fall" x="477" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.14s;animation-delay:3.46s;animation-name:fall;animation-duration:2.14s;">ハ</text>
+<text class="drop fall" x="477" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.58s;animation-delay:2.58s;animation-name:fall;animation-duration:2.58s;">レ</text>
+<text class="drop fall" x="495" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.71s;animation-delay:3.2s;animation-name:fall;animation-duration:2.71s;">ネ</text>
+<text class="drop fall" x="495" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:1.74s;animation-delay:2.15s;animation-name:fall;animation-duration:1.74s;">セ</text>
+<text class="drop fall" x="513" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.73s;animation-delay:1.85s;animation-name:fall;animation-duration:1.73s;">ハ</text>
+<text class="drop fall" x="513" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.85s;animation-delay:3.42s;animation-name:fall;animation-duration:2.85s;">ヒ</text>
+<text class="drop fall" x="531" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.57s;animation-delay:2.16s;animation-name:fall;animation-duration:2.57s;">イ</text>
+<text class="drop fall" x="531" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:3.07s;animation-delay:3.39s;animation-name:fall;animation-duration:3.07s;">エ</text>
+<text class="drop fall pulse" x="549" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:2.27s;animation-delay:0.85s;animation-name:fall,glow;animation-duration:2.27s,1.36s;">ノ</text>
+<text class="drop fall pulse" x="549" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:1.7s;animation-delay:0.01s;animation-name:fall,glow;animation-duration:1.7s,1.02s;">イ</text>
+<text class="drop fall" x="567" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:3.07s;animation-delay:3.14s;animation-name:fall;animation-duration:3.07s;">ソ</text>
+<text class="drop fall" x="567" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.65s;animation-delay:2.92s;animation-name:fall;animation-duration:2.65s;">ハ</text>
+<text class="drop fall" x="585" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.69s;animation-delay:0.62s;animation-name:fall;animation-duration:2.69s;">ル</text>
+<text class="drop fall" x="585" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:3.14s;animation-delay:2.32s;animation-name:fall;animation-duration:3.14s;">シ</text>
+<text class="drop fall" x="603" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.75s;animation-delay:0.23s;animation-name:fall;animation-duration:2.75s;">イ</text>
+<text class="drop fall" x="603" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:2.31s;animation-delay:3.41s;animation-name:fall;animation-duration:2.31s;">ヘ</text>
+<text class="drop fall" x="621" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:3.13s;animation-delay:0.32s;animation-name:fall;animation-duration:3.13s;">イ</text>
+<text class="drop fall" x="621" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:2.47s;animation-delay:2.7s;animation-name:fall;animation-duration:2.47s;">ウ</text>
+<text class="drop fall pulse" x="639" y="0" fill="#00cc7a" font-weight="700" opacity="0.95" style="animation-duration:1.62s;animation-delay:3.56s;animation-name:fall,glow;animation-duration:1.62s,0.97s;">ネ</text>
+<text class="drop fall pulse" x="639" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:2.47s;animation-delay:2.48s;animation-name:fall,glow;animation-duration:2.47s,1.48s;">ヤ</text>
+<text class="drop fall" x="657" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.45s;animation-delay:2.09s;animation-name:fall;animation-duration:2.45s;">ル</text>
+<text class="drop fall" x="657" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.61s;animation-delay:1.26s;animation-name:fall;animation-duration:2.61s;">シ</text>
+<text class="drop fall" x="675" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.64s;animation-delay:2.58s;animation-name:fall;animation-duration:1.64s;">ネ</text>
+<text class="drop fall" x="675" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:3.07s;animation-delay:3.74s;animation-name:fall;animation-duration:3.07s;">テ</text>
+<text class="drop fall" x="693" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.52s;animation-delay:2.25s;animation-name:fall;animation-duration:2.52s;">フ</text>
+<text class="drop fall" x="693" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:2.37s;animation-delay:2.02s;animation-name:fall;animation-duration:2.37s;">ウ</text>
+<text class="drop fall" x="711" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.99s;animation-delay:3.52s;animation-name:fall;animation-duration:2.99s;">ナ</text>
+<text class="drop fall" x="711" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:1.68s;animation-delay:3.33s;animation-name:fall;animation-duration:1.68s;">チ</text>
+<text class="drop fall pulse" x="729" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:3.17s;animation-delay:3.23s;animation-name:fall,glow;animation-duration:3.17s,1.9s;">ヨ</text>
+<text class="drop fall pulse" x="729" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:2.6s;animation-delay:2.22s;animation-name:fall,glow;animation-duration:2.6s,1.56s;">0</text>
+<text class="drop fall" x="747" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.88s;animation-delay:3.56s;animation-name:fall;animation-duration:1.88s;">キ</text>
+<text class="drop fall" x="747" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:1.89s;animation-delay:2.42s;animation-name:fall;animation-duration:1.89s;">ク</text>
+<text class="drop fall" x="765" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.64s;animation-delay:3.41s;animation-name:fall;animation-duration:2.64s;">シ</text>
+<text class="drop fall" x="765" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.85s;animation-delay:3.63s;animation-name:fall;animation-duration:1.85s;">ホ</text>
+<text class="drop fall" x="783" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.54s;animation-delay:3.32s;animation-name:fall;animation-duration:2.54s;">エ</text>
+<text class="drop fall" x="783" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.0s;animation-delay:0.52s;animation-name:fall;animation-duration:2.0s;">0</text>
+<text class="drop fall" x="801" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.73s;animation-delay:2.21s;animation-name:fall;animation-duration:2.73s;">ケ</text>
+<text class="drop fall" x="801" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:1.42s;animation-delay:0.3s;animation-name:fall;animation-duration:1.42s;">メ</text>
+<text class="drop fall pulse" x="819" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:1.46s;animation-delay:1.48s;animation-name:fall,glow;animation-duration:1.46s,0.88s;">ム</text>
+<text class="drop fall pulse" x="819" y="0" fill="#009955" font-weight="700" opacity="0.95" style="animation-duration:2.17s;animation-delay:0.17s;animation-name:fall,glow;animation-duration:2.17s,1.3s;">ク</text>
+<text class="drop fall" x="837" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:3.02s;animation-delay:0.84s;animation-name:fall;animation-duration:3.02s;">ア</text>
+<text class="drop fall" x="837" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.59s;animation-delay:3.12s;animation-name:fall;animation-duration:1.59s;">ル</text>
+<text class="drop fall" x="855" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:2.75s;animation-delay:3.7s;animation-name:fall;animation-duration:2.75s;">ヨ</text>
+<text class="drop fall" x="855" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:3.16s;animation-delay:3.24s;animation-name:fall;animation-duration:3.16s;">ケ</text>
+<text class="drop fall" x="873" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.72s;animation-delay:3.7s;animation-name:fall;animation-duration:1.72s;">1</text>
+<text class="drop fall" x="873" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.96s;animation-delay:3.24s;animation-name:fall;animation-duration:2.96s;">ル</text>
+<text class="drop fall" x="891" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.82s;animation-delay:0.43s;animation-name:fall;animation-duration:2.82s;">ケ</text>
+<text class="drop fall" x="891" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.8s;animation-delay:3.27s;animation-name:fall;animation-duration:1.8s;">ヘ</text>
+<text class="drop fall pulse" x="909" y="0" fill="#00cc7a" font-weight="700" opacity="0.95" style="animation-duration:1.95s;animation-delay:3.18s;animation-name:fall,glow;animation-duration:1.95s,1.17s;">ナ</text>
+<text class="drop fall pulse" x="909" y="0" fill="#009955" font-weight="700" opacity="0.95" style="animation-duration:1.44s;animation-delay:0.77s;animation-name:fall,glow;animation-duration:1.44s,0.86s;">ス</text>
+<text class="drop fall" x="927" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.96s;animation-delay:3.87s;animation-name:fall;animation-duration:2.96s;">タ</text>
+<text class="drop fall" x="927" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.55s;animation-delay:1.6s;animation-name:fall;animation-duration:2.55s;">ナ</text>
+<text class="drop fall" x="945" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:3.09s;animation-delay:0.46s;animation-name:fall;animation-duration:3.09s;">ト</text>
+<text class="drop fall" x="945" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.45s;animation-delay:3.93s;animation-name:fall;animation-duration:2.45s;">コ</text>
+<text class="drop fall" x="963" y="0" fill="#009955" font-weight="400" opacity="0.55" style="animation-duration:2.47s;animation-delay:1.38s;animation-name:fall;animation-duration:2.47s;">オ</text>
+<text class="drop fall" x="963" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.49s;animation-delay:2.05s;animation-name:fall;animation-duration:2.49s;">ハ</text>
+<text class="drop fall" x="981" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.74s;animation-delay:0.18s;animation-name:fall;animation-duration:1.74s;">モ</text>
+<text class="drop fall" x="981" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:2.34s;animation-delay:3.23s;animation-name:fall;animation-duration:2.34s;">0</text>
+<text class="drop fall pulse" x="999" y="0" fill="#009955" font-weight="700" opacity="0.95" style="animation-duration:2.18s;animation-delay:3.8s;animation-name:fall,glow;animation-duration:2.18s,1.31s;">ニ</text>
+<text class="drop fall pulse" x="999" y="0" fill="#009955" font-weight="700" opacity="0.95" style="animation-duration:1.97s;animation-delay:3.39s;animation-name:fall,glow;animation-duration:1.97s,1.18s;">ヨ</text>
+<text class="drop fall" x="1017" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.96s;animation-delay:1.63s;animation-name:fall;animation-duration:1.96s;">マ</text>
+<text class="drop fall" x="1017" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.93s;animation-delay:0.51s;animation-name:fall;animation-duration:1.93s;">ロ</text>
+<text class="drop fall" x="1035" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:3.09s;animation-delay:2.71s;animation-name:fall;animation-duration:3.09s;">ル</text>
+<text class="drop fall" x="1035" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.42s;animation-delay:1.62s;animation-name:fall;animation-duration:2.42s;">ヨ</text>
+<text class="drop fall" x="1053" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.92s;animation-delay:1.72s;animation-name:fall;animation-duration:1.92s;">ツ</text>
+<text class="drop fall" x="1053" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.58s;animation-delay:1.86s;animation-name:fall;animation-duration:2.58s;">ユ</text>
+<text class="drop fall" x="1071" y="0" fill="#00cc7a" font-weight="400" opacity="0.55" style="animation-duration:1.78s;animation-delay:1.89s;animation-name:fall;animation-duration:1.78s;">レ</text>
+<text class="drop fall" x="1071" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.55s;animation-delay:2.06s;animation-name:fall;animation-duration:1.55s;">ル</text>
+<text class="drop fall pulse" x="1089" y="0" fill="#00cc7a" font-weight="700" opacity="0.95" style="animation-duration:1.57s;animation-delay:3.81s;animation-name:fall,glow;animation-duration:1.57s,0.94s;">ト</text>
+<text class="drop fall pulse" x="1089" y="0" fill="#00cc7a" font-weight="700" opacity="0.95" style="animation-duration:1.96s;animation-delay:3.23s;animation-name:fall,glow;animation-duration:1.96s,1.18s;">レ</text>
+<text class="drop fall" x="1107" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.48s;animation-delay:3.94s;animation-name:fall;animation-duration:1.48s;">1</text>
+<text class="drop fall" x="1107" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.22s;animation-delay:3.54s;animation-name:fall;animation-duration:2.22s;">ウ</text>
+<text class="drop fall" x="1125" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.69s;animation-delay:1.54s;animation-name:fall;animation-duration:2.69s;">サ</text>
+<text class="drop fall" x="1125" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.67s;animation-delay:2.75s;animation-name:fall;animation-duration:1.67s;">セ</text>
+<text class="drop fall" x="1143" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.79s;animation-delay:3.22s;animation-name:fall;animation-duration:1.79s;">ハ</text>
+<text class="drop fall" x="1143" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.49s;animation-delay:1.0s;animation-name:fall;animation-duration:1.49s;">フ</text>
+<text class="drop fall" x="1161" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:1.64s;animation-delay:1.86s;animation-name:fall;animation-duration:1.64s;">フ</text>
+<text class="drop fall" x="1161" y="0" fill="#00ff9c" font-weight="400" opacity="0.55" style="animation-duration:2.47s;animation-delay:3.8s;animation-name:fall;animation-duration:2.47s;">メ</text>
+<text class="drop fall pulse" x="1179" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:2.87s;animation-delay:3.57s;animation-name:fall,glow;animation-duration:2.87s,1.72s;">ヨ</text>
+<text class="drop fall pulse" x="1179" y="0" fill="#00ff9c" font-weight="700" opacity="0.95" style="animation-duration:2.2s;animation-delay:0.64s;animation-name:fall,glow;animation-duration:2.2s,1.32s;">メ</text>
+</svg>

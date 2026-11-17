@@ -2,6 +2,10 @@
   <img src="singularity.svg" width="100%" alt="Singularity — a black hole whose accretion disk is made of 64 contributions"/>
 </p>
 
+<p align="center">
+  <img src="matrix.svg" width="100%" alt="Matrix rain"/>
+</p>
+
 # `root@aaron:~$ whoami`
 
 <p align="center">
@@ -12,6 +16,8 @@
   <img src="https://img.shields.io/badge/FOCUS-EMBEDDED%20SYSTEMS-00ff9c?style=for-the-badge&labelColor=101820" />
   &nbsp;
   <img src="https://img.shields.io/badge/INTEREST-AI%20%26%20ENGINEERING-00ff9c?style=for-the-badge&labelColor=101820" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-00ff9c?style=for-the-badge&labelColor=101820" />
 </p>
 
 ```bash
@@ -179,6 +185,14 @@ Status: Always learning.
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=razerblade09&theme=transparent&hide_border=true&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c&sideLabels=c9d1d9&dates=888888" alt="GitHub streak" />
+</p>
+
+---
+
+## `$ github --trophies`
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=razerblade09&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub trophies" />
 </p>
 
 ---
