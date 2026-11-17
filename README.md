@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="breakdown.svg" width="100%" alt="Breakdown — a city at dusk, one tower per active day"/>
+</p>
+
 # `root@aaron:~$ whoami`
 
 <p align="center">
