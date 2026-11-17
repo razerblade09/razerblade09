@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+<defs>
+  <!-- Space background -->
+  <radialGradient id="bg" cx="50%" cy="36%" r="68%" gradientUnits="userSpaceOnUse" fx="400" fy="115">
+    <stop offset="0%" stop-color="#1c0030"/>
+    <stop offset="45%" stop-color="#0d0018"/>
+    <stop offset="100%" stop-color="#030007"/>
+  </radialGradient>
+
+  <!-- Ambient orange-purple glow emanating from BH toward city -->
+  <radialGradient id="ambient" cx="50%" cy="50%" r="50%" gradientUnits="userSpaceOnUse" fx="400" fy="115">
+    <stop offset="0%"   stop-color="#ff5500" stop-opacity="0.40"/>
+    <stop offset="38%"  stop-color="#8b0055" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Horizon warmth bar -->
+  <linearGradient id="horizon" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   stop-color="#ff4400" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#ff4400" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Glow filter (adds soft halo) -->
+  <filter id="gl" x="-45%" y="-45%" width="190%" height="190%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <!-- Heavy blur for ambient spread -->
+  <filter id="hb" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="18"/>
+  </filter>
+
+  <!-- Clip: bottom half of accretion disk (in front of BH) -->
+  <clipPath id="frontDisk">
+    <rect x="285" y="115" width="230" height="70"/>
+  </clipPath>
+</defs>
+
+<!-- ═══════════════════════════════════════════════
+     BACKGROUND
+     ═══════════════════════════════════════════════ -->
+<rect width="800" height="320" fill="url(#bg)"/>
+
+<!-- ═══════════════════════════════════════════════
+     STARS
+     ═══════════════════════════════════════════════ -->
+<g fill="white">
+  <circle cx="45"  cy="20"  r="1">  <animate attributeName="opacity" values="1;0.2;1"   dur="2.8s" repeatCount="indefinite" begin="0.0s"/></circle>
+  <circle cx="130" cy="45"  r="1.5"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="3.5s" repeatCount="indefinite" begin="0.5s"/></circle>
+  <circle cx="200" cy="15"  r="1">  <animate attributeName="opacity" values="1;0.3;1"   dur="2.1s" repeatCount="indefinite" begin="1.0s"/></circle>
+  <circle cx="275" cy="58"  r="1">  <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.0s" repeatCount="indefinite" begin="0.3s"/></circle>
+  <circle cx="345" cy="28"  r="1.5"><animate attributeName="opacity" values="1;0.4;1"   dur="3.2s" repeatCount="indefinite" begin="0.7s"/></circle>
+  <circle cx="455" cy="22"  r="1">  <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite" begin="1.2s"/></circle>
+  <circle cx="525" cy="52"  r="1.5"><animate attributeName="opacity" values="1;0.3;1"   dur="3.8s" repeatCount="indefinite" begin="0.4s"/></circle>
+  <circle cx="602" cy="30"  r="1">  <animate attributeName="opacity" values="0.9;0.1;0.9" dur="2.3s" repeatCount="indefinite" begin="0.8s"/></circle>
+  <circle cx="672" cy="16"  r="1.5"><animate attributeName="opacity" values="1;0.3;1"   dur="3.1s" repeatCount="indefinite" begin="1.5s"/></circle>
+  <circle cx="732" cy="42"  r="1">  <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.9s" repeatCount="indefinite" begin="0.6s"/></circle>
+  <circle cx="782" cy="24"  r="1">  <animate attributeName="opacity" values="1;0.4;1"   dur="3.6s" repeatCount="indefinite" begin="0.2s"/></circle>
+  <circle cx="78"  cy="82"  r="1">  <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" repeatCount="indefinite" begin="1.1s"/></circle>
+  <circle cx="168" cy="72"  r="1.5"><animate attributeName="opacity" values="1;0.3;1"   dur="3.3s" repeatCount="indefinite" begin="0.9s"/></circle>
+  <circle cx="242" cy="92"  r="1">  <animate attributeName="opacity" values="0.8;0.1;0.8" dur="4.2s" repeatCount="indefinite" begin="0.1s"/></circle>
+  <circle cx="560" cy="88"  r="1">  <animate attributeName="opacity" values="1;0.3;1"   dur="2.5s" repeatCount="indefinite" begin="1.4s"/></circle>
+  <circle cx="642" cy="66"  r="1">  <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.7s" repeatCount="indefinite" begin="0.3s"/></circle>
+  <circle cx="712" cy="92"  r="1.5"><animate attributeName="opacity" values="1;0.3;1"   dur="2.2s" repeatCount="indefinite" begin="1.0s"/></circle>
+  <circle cx="762" cy="70"  r="1">  <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.4s" repeatCount="indefinite" begin="0.7s"/></circle>
+  <circle cx="102" cy="122" r="1">  <animate attributeName="opacity" values="1;0.4;1"   dur="2.9s" repeatCount="indefinite" begin="0.4s"/></circle>
+  <circle cx="697" cy="130" r="1">  <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" repeatCount="indefinite" begin="0.9s"/></circle>
+  <circle cx="32"  cy="143" r="1.5"><animate attributeName="opacity" values="1;0.3;1"   dur="2.6s" repeatCount="indefinite" begin="1.3s"/></circle>
+  <circle cx="772" cy="148" r="1">  <animate attributeName="opacity" values="0.8;0.1;0.8" dur="3.8s" repeatCount="indefinite" begin="0.5s"/></circle>
+  <circle cx="490" cy="10"  r="1">  <animate attributeName="opacity" values="1;0.4;1"   dur="2.4s" repeatCount="indefinite" begin="1.6s"/></circle>
+  <circle cx="380" cy="82"  r="1">  <animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.0s" repeatCount="indefinite" begin="0.8s"/></circle>
+  <circle cx="422" cy="66"  r="1">  <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.7s" repeatCount="indefinite" begin="1.1s"/></circle>
+</g>
+
+<!-- ═══════════════════════════════════════════════
+     AMBIENT GLOW (BH light washing over city)
+     ═══════════════════════════════════════════════ -->
+<ellipse cx="400" cy="115" rx="420" ry="310" fill="url(#ambient)" filter="url(#hb)" opacity="0.95"/>
+
+<!-- ═══════════════════════════════════════════════
+     RELATIVISTIC JET (upward beam from BH pole)
+     ═══════════════════════════════════════════════ -->
+<ellipse cx="400" cy="62" rx="3.5" ry="48" fill="#ff7700" opacity="0.22" filter="url(#gl)">
+  <animate attributeName="opacity" values="0.22;0.46;0.22" dur="1.9s" repeatCount="indefinite"/>
+  <animate attributeName="ry"      values="48;53;48"       dur="1.9s" repeatCount="indefinite"/>
+</ellipse>
+
+<!-- ═══════════════════════════════════════════════
+     ACCRETION DISK — BACK LAYER (behind event horizon)
+     ═══════════════════════════════════════════════ -->
+<!-- Outer slow ring -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" values="0 400 115;360 400 115" dur="22s" repeatCount="indefinite"/>
+  <ellipse cx="400" cy="115" rx="112" ry="27" fill="none" stroke="#ff4400" stroke-width="4" stroke-opacity="0.28"/>
+</g>
+<!-- Main disk ring (back) -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" values="0 400 115;360 400 115" dur="11s" repeatCount="indefinite"/>
+  <ellipse cx="400" cy="115" rx="88" ry="21" fill="none" stroke="#ff8c00" stroke-width="11" stroke-opacity="0.52"/>
+</g>
+
+<!-- ═══════════════════════════════════════════════
+     OUTER LENSING RING (gravitational lensing halo)
+     ═══════════════════════════════════════════════ -->
+<circle cx="400" cy="115" r="55" fill="none" stroke="#ff5500" stroke-width="1.2" stroke-opacity="0.38" filter="url(#gl)">
+  <animate attributeName="r"              values="54;58;54"     dur="3.6s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values="0.38;0.6;0.38" dur="3.6s" repeatCount="indefinite"/>
+</circle>
+
+<!-- ═══════════════════════════════════════════════
+     EVENT HORIZON (the black hole)
+     ═══════════════════════════════════════════════ -->
+<circle cx="400" cy="115" r="40" fill="#000008"/>
+<!-- subtle dark-red edge (infalling matter) -->
+<circle cx="400" cy="115" r="40" fill="none" stroke="#3a0010" stroke-width="2.5"/>
+
+<!-- ═══════════════════════════════════════════════
+     PHOTON SPHERE (innermost stable orbit ring)
+     ═══════════════════════════════════════════════ -->
+<circle cx="400" cy="115" r="43" fill="none" stroke="#ffaa33" stroke-width="2.2" filter="url(#gl)">
+  <animate attributeName="stroke-opacity" values="0.85;1;0.85" dur="1.6s" repeatCount="indefinite"/>
+  <animate attributeName="r"              values="42;44;42"    dur="1.6s" repeatCount="indefinite"/>
+</circle>
+
+<!-- ═══════════════════════════════════════════════
+     ACCRETION DISK — FRONT LAYER (in front of BH)
+     Clipped to bottom half → creates wrap-around illusion
+     ═══════════════════════════════════════════════ -->
+<g clip-path="url(#frontDisk)">
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0 400 115;360 400 115" dur="11s" repeatCount="indefinite"/>
+    <ellipse cx="400" cy="115" rx="88" ry="21" fill="none" stroke="#ffe066" stroke-width="14" stroke-opacity="0.92" filter="url(#gl)"/>
+  </g>
+</g>
+
+<!-- ═══════════════════════════════════════════════
+     CITY — SKYLINE
+     ═══════════════════════════════════════════════ -->
+
+<!-- Horizon warmth (city lit by black hole from above) -->
+<rect x="0" y="210" width="800" height="38" fill="url(#horizon)" filter="url(#hb)"/>
+
+<!-- Background buildings (furthest depth, slightly lighter) -->
+<g fill="#0c0019">
+  <rect x="0"   y="263" width="52" height="57"/>
+  <rect x="55"  y="246" width="38" height="74"/>
+  <rect x="96"  y="261" width="58" height="59"/>
+  <rect x="157" y="230" width="44" height="90"/>
+  <rect x="204" y="252" width="42" height="68"/>
+  <rect x="249" y="243" width="32" height="77"/>
+  <rect x="284" y="236" width="62" height="84"/>
+  <rect x="349" y="255" width="48" height="65"/>
+  <rect x="400" y="263" width="48" height="57"/>
+  <rect x="451" y="255" width="48" height="65"/>
+  <rect x="502" y="236" width="62" height="84"/>
+  <rect x="567" y="243" width="32" height="77"/>
+  <rect x="602" y="252" width="42" height="68"/>
+  <rect x="647" y="230" width="44" height="90"/>
+  <rect x="694" y="261" width="58" height="59"/>
+  <rect x="755" y="246" width="38" height="74"/>
+</g>
+
+<!-- Midground buildings -->
+<g fill="#06000e">
+  <rect x="12"  y="274" width="36" height="46"/>
+  <rect x="62"  y="257" width="26" height="63"/>
+  <rect x="112" y="269" width="44" height="51"/>
+  <rect x="169" y="241" width="34" height="79"/>
+  <rect x="216" y="261" width="28" height="59"/>
+  <rect x="260" y="251" width="20" height="69"/>
+  <rect x="297" y="246" width="50" height="74"/>
+  <rect x="360" y="264" width="34" height="56"/>
+  <rect x="407" y="271" width="34" height="49"/>
+  <rect x="463" y="264" width="34" height="56"/>
+  <rect x="510" y="246" width="50" height="74"/>
+  <rect x="537" y="251" width="20" height="69"/>
+  <rect x="560" y="261" width="28" height="59"/>
+  <rect x="602" y="241" width="34" height="79"/>
+  <rect x="650" y="269" width="44" height="51"/>
+  <rect x="717" y="257" width="26" height="63"/>
+  <rect x="756" y="274" width="36" height="46"/>
+</g>
+
+<!-- Ground fill -->
+<rect x="0" y="310" width="800" height="10" fill="#020005"/>
+
+<!-- ═══════════════════════════════════════════════
+     WINDOWS (flickering orange from BH warmth)
+     ═══════════════════════════════════════════════ -->
+<g fill="#ffaa44">
+  <!-- Left cluster -->
+  <rect x="58"  y="251" width="4" height="3" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6"  dur="2.3s" repeatCount="indefinite" begin="0.2s"/></rect>
+  <rect x="66"  y="251" width="4" height="3" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5"  dur="3.1s" repeatCount="indefinite" begin="0.8s"/></rect>
+  <rect x="62"  y="260" width="4" height="3" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7"  dur="2.7s" repeatCount="indefinite" begin="1.5s"/></rect>
+  <rect x="160" y="235" width="4" height="3" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6"  dur="3.5s" repeatCount="indefinite" begin="0.5s"/></rect>
+  <rect x="168" y="235" width="4" height="3" opacity="0.45"><animate attributeName="opacity" values="0.45;0.1;0.45" dur="2.4s" repeatCount="indefinite" begin="1.2s"/></rect>
+  <rect x="162" y="246" width="4" height="3" opacity="0.65"><animate attributeName="opacity" values="0.65;0.3;0.65" dur="3.2s" repeatCount="indefinite" begin="0.3s"/></rect>
+  <rect x="170" y="246" width="4" height="3" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5"  dur="2.8s" repeatCount="indefinite" begin="1.7s"/></rect>
+  <rect x="160" y="257" width="4" height="3" opacity="0.7"><animate attributeName="opacity" values="0.7;0.25;0.7" dur="2.1s" repeatCount="indefinite" begin="0.6s"/></rect>
+  <rect x="288" y="241" width="4" height="3" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6"  dur="3.0s" repeatCount="indefinite" begin="1.0s"/></rect>
+  <rect x="296" y="241" width="4" height="3" opacity="0.5"><animate attributeName="opacity" values="0.5;0.15;0.5" dur="2.5s" repeatCount="indefinite" begin="0.4s"/></rect>
+  <rect x="304" y="241" width="4" height="3" opacity="0.65"><animate attributeName="opacity" values="0.65;0.3;0.65" dur="3.4s" repeatCount="indefinite" begin="1.3s"/></rect>
+  <rect x="290" y="252" width="4" height="3" opacity="0.45"><animate attributeName="opacity" values="0.45;0.1;0.45" dur="2.2s" repeatCount="indefinite" begin="0.9s"/></rect>
+  <rect x="300" y="252" width="4" height="3" opacity="0.7"><animate attributeName="opacity" values="0.7;0.25;0.7" dur="3.6s" repeatCount="indefinite" begin="0.2s"/></rect>
+  <!-- Right cluster (mirrored) -->
+  <rect x="514" y="241" width="4" height="3" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6"  dur="3.0s" repeatCount="indefinite" begin="1.0s"/></rect>
+  <rect x="522" y="241" width="4" height="3" opacity="0.5"><animate attributeName="opacity" values="0.5;0.15;0.5" dur="2.5s" repeatCount="indefinite" begin="0.4s"/></rect>
+  <rect x="530" y="241" width="4" height="3" opacity="0.65"><animate attributeName="opacity" values="0.65;0.3;0.65" dur="3.4s" repeatCount="indefinite" begin="1.3s"/></rect>
+  <rect x="516" y="252" width="4" height="3" opacity="0.45"><animate attributeName="opacity" values="0.45;0.1;0.45" dur="2.2s" repeatCount="indefinite" begin="0.9s"/></rect>
+  <rect x="526" y="252" width="4" height="3" opacity="0.7"><animate attributeName="opacity" values="0.7;0.25;0.7" dur="3.6s" repeatCount="indefinite" begin="0.2s"/></rect>
+  <rect x="650" y="235" width="4" height="3" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6"  dur="3.5s" repeatCount="indefinite" begin="0.5s"/></rect>
+  <rect x="658" y="235" width="4" height="3" opacity="0.45"><animate attributeName="opacity" values="0.45;0.15;0.45" dur="2.4s" repeatCount="indefinite" begin="1.2s"/></rect>
+  <rect x="652" y="246" width="4" height="3" opacity="0.65"><animate attributeName="opacity" values="0.65;0.3;0.65" dur="3.2s" repeatCount="indefinite" begin="0.3s"/></rect>
+  <rect x="660" y="246" width="4" height="3" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5"  dur="2.8s" repeatCount="indefinite" begin="1.7s"/></rect>
+  <rect x="650" y="257" width="4" height="3" opacity="0.7"><animate attributeName="opacity" values="0.7;0.25;0.7" dur="2.1s" repeatCount="indefinite" begin="0.6s"/></rect>
+  <rect x="718" y="251" width="4" height="3" opacity="0.65"><animate attributeName="opacity" values="0.65;0.25;0.65" dur="2.3s" repeatCount="indefinite" begin="0.2s"/></rect>
+  <rect x="726" y="251" width="4" height="3" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5"  dur="3.1s" repeatCount="indefinite" begin="0.8s"/></rect>
+  <rect x="722" y="260" width="4" height="3" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7"  dur="2.7s" repeatCount="indefinite" begin="1.5s"/></rect>
+</g>
+
+</svg>
