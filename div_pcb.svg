@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="PCB circuit traces">
+<defs>
+  <path id="tr12" d="M 0 12 L 1200 12" fill="none"/>
+<path id="tr28" d="M 0 28 L 1200 28" fill="none"/>
+<path id="tr44" d="M 0 44 L 1200 44" fill="none"/>
+<path id="tr58" d="M 0 58 L 1200 58" fill="none"/>
+  <filter id="pg"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  @keyframes sig12{from{transform:translateX(-10px)}to{transform:translateX(1210px)}}
+  @keyframes sig28{from{transform:translateX(-10px)}to{transform:translateX(1210px)}}
+  @keyframes sig44{from{transform:translateX(-10px)}to{transform:translateX(1210px)}}
+  @keyframes sig58{from{transform:translateX(-10px)}to{transform:translateX(1210px)}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="1200" height="70" fill="#021202"/>
+<!-- PCB grid -->
+<line x1="0" y1="0" x2="1200" y2="0" stroke="#0a2010" stroke-width="0.5"/>
+<line x1="0" y1="12" x2="1200" y2="12" stroke="#c8a000" stroke-width="2" opacity="0.5"/>
+<line x1="0" y1="28" x2="1200" y2="28" stroke="#c8a000" stroke-width="2" opacity="0.5"/>
+<line x1="0" y1="44" x2="1200" y2="44" stroke="#c8a000" stroke-width="2" opacity="0.5"/>
+<line x1="0" y1="58" x2="1200" y2="58" stroke="#c8a000" stroke-width="2" opacity="0.5"/>
+<circle cx="467" cy="12" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="467" cy="12" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="289" cy="12" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="289" cy="12" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="655" cy="12" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="655" cy="12" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="766" cy="12" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="766" cy="12" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="885" cy="28" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="885" cy="28" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="646" cy="28" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="646" cy="28" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="712" cy="28" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="712" cy="28" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="103" cy="28" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="103" cy="28" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="1057" cy="28" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="1057" cy="28" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="606" cy="44" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="606" cy="44" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="225" cy="44" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="225" cy="44" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="972" cy="44" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="972" cy="44" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="1051" cy="44" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="1051" cy="44" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="396" cy="44" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="396" cy="44" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="387" cy="58" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="387" cy="58" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="938" cy="58" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="938" cy="58" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="285" cy="58" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="285" cy="58" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="967" cy="58" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="967" cy="58" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="487" cy="58" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="487" cy="58" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cx="267" cy="58" r="5" fill="#1a3010" stroke="#c8a000" stroke-width="1.5" opacity="0.7"/><circle cx="267" cy="58" r="2" fill="#c8a000" opacity="0.9"/>
+<circle cy="12" cx="-10" r="4" fill="#ffffff" opacity="0.9" style="animation:sig12 8s linear 0.0s infinite;filter:url(#pg)"/><circle cy="12" cx="-10" r="2" fill="#c8a000" opacity="1" style="animation:sig12 8s linear 0.0s infinite"/>
+<circle cy="28" cx="-10" r="4" fill="#ffffff" opacity="0.9" style="animation:sig28 12s linear 1.5s infinite;filter:url(#pg)"/><circle cy="28" cx="-10" r="2" fill="#c8a000" opacity="1" style="animation:sig28 12s linear 1.5s infinite"/>
+<circle cy="44" cx="-10" r="4" fill="#ffffff" opacity="0.9" style="animation:sig44 7s linear 0.8s infinite;filter:url(#pg)"/><circle cy="44" cx="-10" r="2" fill="#c8a000" opacity="1" style="animation:sig44 7s linear 0.8s infinite"/>
+<circle cy="58" cx="-10" r="4" fill="#ffffff" opacity="0.9" style="animation:sig58 15s linear 2.2s infinite;filter:url(#pg)"/><circle cy="58" cx="-10" r="2" fill="#c8a000" opacity="1" style="animation:sig58 15s linear 2.2s infinite"/>
+<rect y="69" width="1200" height="1" fill="#c8a000" opacity="0.4"/>
+</svg>

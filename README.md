@@ -32,7 +32,7 @@ Environment: Linux | Git | VS Code
 Philosophy : Understand the system. Build it. Test it.
 ```
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_city.svg" width="100%" alt="---"/></p>
 
 ## `$ cat /proc/aaron/technical_profile`
 
@@ -49,7 +49,7 @@ My interests include:
 - Edge AI and intelligent devices
 - Low-level programming and system design
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_space.svg" width="100%" alt="---"/></p>
 
 ## `$ ls ./featured_projects`
 
@@ -106,7 +106,7 @@ A hands-on learning repository focused on strengthening C programming fundamenta
 
 [![Learning Lab](https://img.shields.io/badge/Repo-c--embedded--learning-00ff9c?style=flat-square&logo=github&logoColor=white&labelColor=101820)](https://github.com/razerblade09/c-embedded-learning)
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_pacman.svg" width="100%" alt="---"/></p>
 
 ## `$ cat /etc/education`
 
@@ -115,7 +115,7 @@ A hands-on learning repository focused on strengthening C programming fundamenta
 | BS Computer Engineering | Lyceum of the Philippines University – Laguna |
 | BS Information Technology | STI College Tanauan |
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_road.svg" width="100%" alt="---"/></p>
 
 ## `$ cat /etc/experience`
 
@@ -130,7 +130,7 @@ A hands-on learning repository focused on strengthening C programming fundamenta
 - Built a kitchen simulator for automated product air quality testing
 - Agile/SAFe/Scrum development workflows; hands-on electronics and soldering experience
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_pcb.svg" width="100%" alt="---"/></p>
 
 ## `$ neofetch --skills`
 
@@ -140,7 +140,7 @@ A hands-on learning repository focused on strengthening C programming fundamenta
 
 **Currently strengthening:** Embedded C, pointers, memory management, debugging, firmware architecture and hardware-software integration.
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_runner.svg" width="100%" alt="---"/></p>
 
 ## `$ cat /etc/awards`
 
@@ -160,7 +160,7 @@ A hands-on learning repository focused on strengthening C programming fundamenta
 
 📜 IBM & ISC2 Cybersecurity Specialist Professional Certificate
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_wave.svg" width="100%" alt="---"/></p>
 
 ## `$ git status --short`
 
@@ -173,7 +173,7 @@ A hands-on learning repository focused on strengthening C programming fundamenta
 Status: Always learning.
 ```
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_city.svg" width="100%" alt="---"/></p>
 
 ## `$ github --stats`
 
@@ -187,7 +187,7 @@ Status: Always learning.
   <img src="https://streak-stats.demolab.com?user=razerblade09&theme=transparent&hide_border=true&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c&sideLabels=c9d1d9&dates=888888" alt="GitHub streak" />
 </p>
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_space.svg" width="100%" alt="---"/></p>
 
 ## `$ github --trophies`
 
@@ -195,7 +195,7 @@ Status: Always learning.
   <img src="https://github-profile-trophy.vercel.app/?username=razerblade09&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub trophies" />
 </p>
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_runner.svg" width="100%" alt="---"/></p>
 
 ## `$ ./contribution_activity.sh`
 
@@ -207,7 +207,7 @@ Status: Always learning.
   <img src="https://raw.githubusercontent.com/razerblade09/razerblade09/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" />
 </p>
 
-<p align="center"><img src="retro_divider.svg" width="100%" alt="---"/></p>
+<p align="center"><img src="div_wave.svg" width="100%" alt="---"/></p>
 
 ## `$ ./connect.sh`
 
